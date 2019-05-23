@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACCOUNTING</title>
+   <link rel="stylesheet" href="css/animate.min.css" />
+
+<link rel="icon" href="/sss.jpg" />
+<link rel="stylesheet" href="css/materialize.css" />
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<script src="js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="text/css" href="bar.css">
+</head>
+
+
+<body>
+
+
+
+
+  <div class="navbar-fixed">
+<nav>
+
+    <div class="nav-wrapper #26a69a teal lighten-1">
+      <a href="index_os.html" class="brand-logo center">COST CALCULATION</a>
+      <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down" id="manute">
+        
+         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">MENU<a< li=""><i class="material-icons right">arrow_drop_down</i></a<></a>
+
+
+  </li></ul></div>
+</nav></div>
+
+  <ul id="dropdown1" class="dropdown-content">
+
+  <li><a href="index.html">SPANISH</a></li>
+    <li><a href="teo_i_os.html">THEORY</a></li>
+  <li><a href="guide.pdf">GUIDE</a></li>
+   <li><a href="about_os.html">ABOUT</a></li>
+</ul>
+
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <ul class="side-nav" id="mobile-demo">
+  <li><a href="index.html">SPANISH</a></li>
+  <li><a href="teo_i_os.html">THEORY</a></li>
+  <li><a href="guide.pdf">GUIDE</a></li>
+   <li><a href="about_os.html">ABOUT</a></li>
+      </ul>
+    </div>
+  
+<br><br><br><br>
+
+
+
+<article class="center-align #00897b teal darken-1">
+<div>
+    <div class="col s12 ">
+      <ul class="tabs #00897b teal darken-2">
+        <li class="tab col s3 #00796b teal darken-2"><a class="white-text" href="#test1">PRIMARY COST</a></li>
+        <li class="tab col s3 #00796b teal darken-2"><a class="white-text" href="#test2">PRODUCTION COST</a></li>
+        <li class="tab col s3 #00796b teal darken-2"><a class="white-text" href="#test3">INDIRECT COSTS</a></li>
+        <li class="tab col s3 #00796b teal darken-2"><a class="white-text" href="#test4">DISTRIBUTION FEE</a></li>
+  
+      
+      </ul>
+    </div>
+
+    <div id="test1" class="col s12">
+     <div class="container ">  
+      <br /> <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+    <input type="number" id="valor1" placeholder="Materia Prima Directa" max="99999" /> +
+    <input type="number" id="valor2" placeholder="Mano De Obra Directa" max="99999" /> =
+    <output name="resultado" for="valor1 valor2"></output>
+
+    <br /><br />
+
+    
+    <input class="btn #00897b teal darken-3" type="reset" value="Delete" />
+<ul class="collapsible #00897b teal darken-3">
+    <li>
+      <div class="collapsible-header #00897b teal darken-3 white-text">FORMULA</div>
+       <div class="collapsible-body #00796b teal darken-3"><span>PRIME COST IS EQUAL TO THE SUM OF RAW DIRECT MATTER MORE DIRECT LABOR</span></div>
+z    </li>
+  </ul>
+</form>
+</div>
+    </div>
+    <div id="test2" class="col s12">
+    <div class="container "> <br /> <form method="POST" oninput="resultado.value=parseInt(val.value)+parseInt(valo2.value)+parseInt(valo3.value)">
+    <input type="number" id="val" placeholder=" Costo Primo " max="99999" />+
+    <input type="number" id="valo2" placeholder=" Gastos Generales de Fabricacion Directa " max="99999" />+
+    <input type="number" id="valo3" placeholder=" Costo Indirecto " max="99999" />=
+    <output name="resultado" for="val valo2 valo3"></output>
+
+    <br /><br />
+
+    
+    <input class="btn #00897b teal darken-3" type="reset" value="Borrar" />
+
+    <ul class="collapsible #00897b teal darken-3">
+    <li>
+      <div class="collapsible-header #00897b teal darken-3 white-text">Fórmula</div>
+      <div class="collapsible-body #00897b teal darken-3"><span>COSTO DE PRODUCCIÓN ES IGUAL A LA SUMA DE COSTO PRIMO MAS GASTOS GENERALES DE FABRICACIÓN DIRECTA Y MAS EL COSTO INDIRECTO</span></div>
+    </li>
+  </ul>
+
+</form>
+</div>      
+
+    </div>
+    <div id="test3" class="col s12">
+     <div class="container "> <br /> <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)+parseInt(val3.value)">
+    <input type="number" id="valor1" placeholder="Materia prima indirecta" max="99999" /> +
+    <input type="number" id="valor2" placeholder="Mano de obra indirecta   " max="99999" /> +
+    <input type="number" id="val3" placeholder="Gastos generales de fabricación indirectos" /> =
+    
+    <output name="resultado" for="valor1 valor2 val3"></output>
+
+    <br /><br />
+
+    
+    <input class="btn #00897b teal darken-3" type="reset" value="Borrar" />
+
+    <ul class="collapsible #00897b teal darken-3">
+    <li>
+      <div class="collapsible-header #00897b teal darken-3 white-text">Fórmula</div>
+      <div class="collapsible-body #00897b teal darken-3"><span>COSTOS INDIRECTOS ES IGUAL A LA SUMA DE MATERIA PRIMA INDIRECTA MAS MANO DE OBRA INDIRECTA MAS GASTOS GENERALES DE FABRICACIÓN INDIRECTOS</span></div>
+    </li>
+  </ul>
+
+</form>
+</div> 
+
+    </div>
+    <div id="test4" class="col s12">
+      <div class="container "> <br /> <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+    <input type="number" id="valor1" placeholder="Gastos de venta" max="99999" /> +
+    <input type="number" id="valor2" placeholder="Gastos de administración" max="99999" /> =
+    <output name="resultado" for="valor1 valor2"></output>
+
+    <br /><br />
+
+    
+    <input class="btn #00897b teal darken-3" type="reset" value="Borrar" />
+
+    <ul class="collapsible #00897b teal darken-3">
+    <li>
+      <div class="collapsible-header #00897b teal darken-3 white-text">Fórmula</div>
+      <div class="collapsible-body #00897b teal darken-3"><span>COSTO DE DISTRIBUCIÓN ES IGUAL A LA SUMA DE GASTOS DE VENTA MAS GASTOS DE ADMINISTRACIÓN</span></div>
+    </li>
+  </ul>
+
+</form>
+<br /><br /><br />
+
+</div>
+
+    </div>
+
+  
+
+    </div>
+
+  </div>
+</article></div>
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".button-collapse").sideNav();
+  });
+  $(document).ready(function(){
+    $('.slider').slider();
+  });  
+</script>
+
+
+
+<script> 
+</script>
+<script type="text/javascript">
+ // M.AutoInit();
+</script>
+
+
+<div class="row">
+
+</div>
+
+  
+
+    
+
+  
+
+    <br /><br />
+  
+ <div class=" #00897b teal darken-1"> 
+<article class="center-align #00897b teal darken-1">
+ 
+    
+  <br /><br />
+
+
+   <ul id="tabs-swipe-demo" class="tabs #00897b teal darken-2 white-text">
+    <li class="tab col s3"><a class="white-text" href="#test-swipe-2">Costo Unitario de Producción</a></li>
+    <li class="tab col s3"><a class="white-text" href="#test-swipe-3">Costo Total de la Operación</a></li>
+  </ul>
+
+  <div class="container">
+    
+  <div id="test-swipe-2" class="col s12 ">
+    
+      <div class="container "> <br /> <form method="POST" oninput="resultado.value=parseInt(valor1.value)/parseInt(valor2.value)">
+    <input type="number" id="valor1" placeholder="Costo de producción" max="99999" /> /
+    <input type="number" id="valor2" placeholder="Unidades producidas" max="99999" /> =
+    <output name="resultado" for="valor1 valor2"></output>
+
+
+    <br />
+    <input class="btn #00897b teal darken-3" type="reset" value="Borrar" />
+
+    <ul class="collapsible #00897b teal darken-3">
+    <li>
+      <div class="collapsible-header #00897b teal darken-3 white-text">Fórmula</div>
+      <div class="collapsible-body #00897b teal darken-3"><span>COSTO UNITARIO DE PRODUCCIÓN ES IGUAL A COSTO DE PRODUCCIÓN ENTRE UNIDADES PRODUCIDAS</span></div>
+    </li>
+  </ul>
+
+</form>
+</div>
+
+  </div>
+  <div id="test-swipe-3" class="col s12 ">
+     <div class="container "> <br /> <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+    <input type="number" id="valor1" placeholder="Coste de producción" max="99999" /> +
+    <input type="number" id="valor2" placeholder="Costo de distribución" max="99999" /> =
+    <output name="resultado" for="valor1 valor2"></output>
+
+
+    <br />
+    <input class="btn #00897b teal darken-3" type="reset" value="Borrar" />
+    <ul class="collapsible #00897b teal darken-3">
+    <li>
+      <div class="collapsible-header #00897b teal darken-3 white-text">Fórmula</div>
+      <div class="collapsible-body #00897b teal darken-3"><span>COSTE TOTAL DE LA OPERACIÓN ES IGUAL A COSTO DE PRODUCCIÓN MAS COSTO DE DISTRIBUCIÓN</span></div>
+    </li>
+  </ul>
+
+</form>
+
+        
+</div>
+
+
+  </div>
+</div>
+  </article></div>
+
+
+
+ 
+
+
+</li>
+</ul>
+<br /><br /><br /><br />
+<footer class="page-footer #26a69a teal lighten-1">
+          <div class="container">
+            <div class="row responsive">
+              <div class="col l6 s12">
+                <h5 class="white-text">Aplicación hibrida web/movil</h5>
+          
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">DESARROLLADO POR:</h5>
+                     <ul class="white-text">JONATAN JOEL GALLARDO GALINDO</ul>
+               <ul class="white-text">FRANCISCO JAVIER RAMÍREZ BACHOMO</ul>
+                            </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container white-text ">
+            © 2019 Copyright Bachomo studios
+            </div>
+          </div>
+        </footer>
+
+
+</body></html>
